@@ -3,7 +3,7 @@ import express, { Application } from 'express';
 import mongoose from 'mongoose';
 import session from 'express-session';
 import dotenv from 'dotenv';
-import authRoutes from './src/routes/Auth';
+import authRoutes from './routes/Auth';
 import MongoStore from 'connect-mongo';
 
 dotenv.config();
