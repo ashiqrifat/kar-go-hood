@@ -14,6 +14,7 @@ const PORT: number = parseInt(process.env.PORT || '3000', 10);
 // Connect to MongoDB
 // pass:  blahBluh.11
 // email: sydell@campatar.com
+// token: f35a96cb5f3e8dfeaf3ff27df3c4d892
 mongoose
   .connect(process.env.MONGODB_URI || '')
   .then(() => console.log('Connected to MongoDB'))
